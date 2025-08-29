@@ -1,6 +1,10 @@
 package com.ab.model;
 
+
+import jakarta.persistence.Id;
+
 public class Model {
+    @Id
     private int id;
     private String nome;
     private int idade;
